@@ -6,12 +6,12 @@
 /*   By: vdragomi <vdragomi@42student.wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/03 12:18:21 by vdragomi          #+#    #+#             */
-/*   Updated: 2022/01/03 14:18:10 by vdragomi         ###   ########.fr       */
+/*   Updated: 2022/01/05 15:25:09 by vdragomi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-use structopt::StructOpt;
 use std::clone::Clone;
+use structopt::StructOpt;
 
 #[derive(Debug, StructOpt, Clone)]
 #[structopt(
